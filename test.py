@@ -66,7 +66,6 @@ def save_inputs_and_targets(input_dir, target_dir, output_dir, test_loader, tota
         total += total_images_in_batch
         if total >= total_images_to_save:
             break  
-    print(f"XXXXXXXXXXXXXXXXXXXXX {total}")
 
 #####################################################################################
 
@@ -93,7 +92,6 @@ def estimate_ouput_and_save(output_dir, model_path, test_loader, total_images_to
         total += total_images_in_batch
         if total >= total_images_to_save:
             break  
-    print(f"XXXXXXXXXXXXXXXXXXXXX {total}")
 
 #######################################################################################
 
